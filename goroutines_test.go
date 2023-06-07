@@ -29,3 +29,20 @@ func TestCreateGoroutineLoop(t *testing.T) {
 	
 	time.Sleep(1 * time.Second)
 }
+
+// channel
+func TestCreateChannel(t *testing.T) {
+	channel := make(chan string)
+	defer close(channel)
+
+	go func() {
+		time.Sleep(2 * time.Second)
+		channel <- "Ryan Adhitama Putra"
+		fmt.Println("Sending data to channel done")
+	}()
+
+	data := <- channel
+	fmt.Println(data)
+
+	time.Sleep(5 * time.Second)
+}
