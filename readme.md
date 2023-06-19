@@ -5,3 +5,4 @@
 - [x] Default select
 - [x] Race condition
 - [x] Mutex
+- [x] RWMutex
