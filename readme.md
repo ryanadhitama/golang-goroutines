@@ -7,3 +7,5 @@
 - [x] Race condition
 - [x] Mutex
 - [x] RWMutex
+- [x] sync.WaitGroup
+- [x] sync.Once
