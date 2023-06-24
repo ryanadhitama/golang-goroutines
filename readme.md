@@ -9,3 +9,4 @@
 - [x] RWMutex
 - [x] sync.WaitGroup
 - [x] sync.Once
+- [x] sync.Pool
