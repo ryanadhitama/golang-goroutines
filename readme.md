@@ -10,3 +10,4 @@
 - [x] sync.WaitGroup
 - [x] sync.Once
 - [x] sync.Pool
+- [x] sync.Map
