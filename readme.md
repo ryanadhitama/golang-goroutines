@@ -11,3 +11,4 @@
 - [x] sync.Once
 - [x] sync.Pool
 - [x] sync.Map
+- [x] sync.Cond
