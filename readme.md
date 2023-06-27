@@ -12,3 +12,4 @@
 - [x] sync.Pool
 - [x] sync.Map
 - [x] sync.Cond
+- [x] Atomic
