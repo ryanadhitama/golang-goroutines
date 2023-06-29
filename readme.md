@@ -13,3 +13,5 @@
 - [x] sync.Map
 - [x] sync.Cond
 - [x] Atomic
+- [x] Timer 
+- [x] Ticker
