@@ -15,3 +15,4 @@
 - [x] Atomic
 - [x] Timer 
 - [x] Ticker
+- [x] Gomaxprocs
